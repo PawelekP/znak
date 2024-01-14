@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oskar Witała 4J">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 30px;
+            background-color: gray;
+        }
+
+        .dash {
+            background-color: cyan;
+            border: 4px solid blue;
+            border-radius: 10px;
+            border-style: dashed;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .dot {
+            background-color: cyan;
+            border: 4px solid blue;
+            border-radius: 10px;
+            border-style: dotted;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .sign1 {
+            background-color: red;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+
+        .sign2 {
+            background-color: white;
+            position: absolute;
+            left: 10px;
+            top: 80px;
+            width: 180px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <button class="dash">Dash border button</button>
+    <button class="dot"> Dotted Border Button</button>
+    <div class="sign1">
+        <div class="sign2"></div>
+    </div>
+</body>
+</html>
